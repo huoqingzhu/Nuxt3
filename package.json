@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "from": "^0.1.7",
+    "import": "^0.0.6",
+    "querystring": "^0.2.1",
+    "url": "^0.11.0"
+  }
+}
